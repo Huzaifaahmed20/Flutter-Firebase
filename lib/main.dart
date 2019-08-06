@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: Color(0xffEB95B6),
@@ -54,7 +55,6 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          
           Expanded(
             flex: 14,
             child: Container(
